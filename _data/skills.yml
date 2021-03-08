@@ -1,0 +1,26 @@
+languages:
+  - item: R
+  - item: Python
+  - item: HTML
+  - item: CSS/Sass
+
+soft-skills:
+  - item: Precision
+  - item: Kindness
+  - item: Group work
+  - item: Deployment
+
+tools:
+  - item: Git & Github
+  - item: Something
+  - item: Something
+  - item: Something
+  - item: MongoDB
+
+design:
+  - item: Photoshop
+  - item: Illustrator
+  - item: Something
+  - item: Something
+  - item: Something
+  - item: Something

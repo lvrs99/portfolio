@@ -1,0 +1,45 @@
+# Site settings
+name: Lia Verso
+title: Lia Verso
+description: Open minded statistician approaching finance.
+url: https://liaverso.it/
+baseurl: ''
+email: 99liaverso@gmail.com
+cover: img\og.png
+logo: img\emojis\woman-student.png
+resume: resume.pdf
+social:
+  - title: email
+    url: mailto:99liaverso@gmail.com
+  #- title: twitter
+  #  url: https://twitter.com
+  #- title: instagram
+  #  url: https://instagram.com
+  #- title: codepen
+  #  url: http://codepen.io
+  - title: github
+    url: https://github.com/
+  - title: linkedin
+    url: https://www.linkedin.com/in/liaverso7/
+
+# Build settings
+markdown: kramdown
+
+exclude:
+  - 'Gemfile'
+  - 'Gemfile.lock'
+  - '*.gemspec'
+  - 'README.md'
+  - 'node_modules'
+  - 'build'
+  - 'gulpfile.js'
+  - 'package.json'
+
+keep_files:
+  - 'CNAME'
+  - '.git'
+  - '.gitignore'
+
+plugins_dir:
+  - jekyll-minifier
+  - jekyll-sitemap
