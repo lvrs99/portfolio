@@ -112,10 +112,16 @@
         width: 30px;
         height: 30px;
         margin: 0 5px;
+        cursor: pointer;
         vertical-align: text-bottom;
         @include phablet {
           width: 25px;
           height: 25px;
+        }
+
+        &:hover,
+        &:focus {
+          transform: translateX(5px);
         }
       }
     }
