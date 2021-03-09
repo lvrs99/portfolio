@@ -1,18 +1,18 @@
 {
-  "name": "sitename.com",
-  "version": "0.0.0",
+  "name": "liaverso.it",
+  "version": "0.0.1",
   "description": "Open-minded statistician approaching finance.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sitename/sitename.github.io"
+    "url": "https://liaverso.it"
   },
-  "homepage": "https://github.com/sitename/sitename.github.io",
+  "homepage": "https://liaverso.it",
   "main": "gulpfile.js",
   "scripts": {
     "start": "gulp serve --watch",
     "build": "gulp build"
   },
-  "author": "Lia Verso",
+  "author": "Lia",
   "license": "ISC",
   "devDependencies": {
     "@nuscout/eslint-config": "^0.2.1",
