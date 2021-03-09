@@ -108,6 +108,7 @@
     }
     .emoji {
       &.pointer {
+        @include transition;
         background-image: url('../img/emojis/pointright.png');
         width: 30px;
         height: 30px;
